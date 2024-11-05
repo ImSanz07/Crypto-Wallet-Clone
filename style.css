@@ -452,6 +452,9 @@ textarea{
     border-top:1px solid #77d58d;
     padding: 1rem 0;
 }
+.assets_item span{
+    color: #fcfcfc;
+}
 
 .assets_item2 {
     display: grid;

@@ -529,16 +529,15 @@ async function myFunction() {
         .then((response) => response.json())
         .then((data) => {
             let elements = "";
+            console.log(data);
+            
 
             data.data.tokens.map((token) =>
             (elements += `
             <div class="assets_item">
-                <img class="assets_item_img"
-                src="./assets/theblockchaincoders.png"
-                alt="
-                />
                 <span> ${token.address.slice(0, 15)}... </span>
-                <span> ${token.symbol}... </span>
+                <span> ${token.name} </span>
+                <span> ${token.symbol} </span>
 
             </div>
         `)
