@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Crypto Vault Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "favicon.png"
+  },
+  "permissions": ["tabs","bookmarks","unlimitedStorage","nativeMessaging"]
+}
